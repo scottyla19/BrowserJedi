@@ -5,16 +5,16 @@
 Currently it only works on a Mac and was tested on Firefox, Chrome, and Safari.
 
 Current Functions include:
-Swipe Up : Zoom In
-Swipe Down : Zoom Out
-Swipe Left : Go Back
-Swipe Right : Go Forward
+- Swipe Up : Zoom In
+- Swipe Down : Zoom Out
+- Swipe Left : Go Back
+- Swipe Right : Go Forward
 
-Tap Left: Undo
-Tap Right: Redo
-Tap Center Refresh
-Tap Down : Scroll Down a Frame
-Tap Up : Scroll Up a Frame
+- Tap Left: Undo
+- Tap Right: Redo
+- Tap Center Refresh
+- Tap Down : Scroll Down a Frame
+- Tap Up : Scroll Up a Frame
 
 Things to do in the future:
 - ensure cross-browser functionality
