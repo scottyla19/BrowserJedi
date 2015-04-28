@@ -10,11 +10,10 @@ def press_key_command(data):
 	if "=" in data:
 		action = data.split("=")[1].strip()
 
-	print action
 	actions = {"Left Swipe":"(ASCII character 8)",
-				"Up Swipe":['"+"', "{command down}"],#get correct key code
+				"Up Swipe":['"+"', "{command down}"],
 				"Right Swipe":["(ASCII character 8)","{shift down}"],
-				"Down Swipe":['"-"',"{command down}"],#get correct key code
+				"Down Swipe":['"-"',"{command down}"],
 				"Tap West":['"z"',"{command down}"],
 				"Tap East":['"z"',"{command down, shift down}"],
 				"Tap North":["space","{shift down}"],
@@ -35,7 +34,6 @@ def press_key_command(data):
 			osascript -e 'tell application "System Events" to keystroke {} using {}'
 			""".format(*key_press)
 
-		print cmd
 		os.system(cmd)
 		
 	else:
